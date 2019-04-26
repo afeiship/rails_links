@@ -1,0 +1,17 @@
+<%= form_for( @link ) do |f| %>
+    <div class="field">
+        <%= f.label :title %><br />
+        <%= f.text_field :title %>
+    </div>
+
+    <div class="field">
+        <%= f.label :description %><br />
+        <%= f.text_field :description %>
+    </div>
+
+    <div class="field">
+        <%= f.label :logo %><br />
+        <%= f.text_field :logo %>
+    </div>
+    <%= f.submit %>
+<% end %>
