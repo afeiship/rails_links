@@ -13,8 +13,8 @@
 
 2. 链接内容表
 
-| field   | type   | length | description                             |
-| ------- | ------ | ------ | --------------------------------------- |
-| url     | string | -      | 友情链接的地址                          |
-| content | string | -      | 链接显示的文字(text); 图片的(image) URL |
+| field   | type   | length | description                                |
+| ------- | ------ | ------ | ------------------------------------------ |
+| link    | string | -      | 友情链接的地址，如: http://blog.zhang3.com |
+| content | string | -      | 链接显示的文字(text); 图片的(image) URL    |
 
