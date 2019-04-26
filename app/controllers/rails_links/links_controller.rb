@@ -10,6 +10,10 @@ module RailsLinks
       @link = Link.new
     end
 
+    def show
+      @link = Link.find(params[:id]) rescue nil
+    end
+
     def create
       @link = Link.new(allow_params)
       @link.save
@@ -19,10 +23,6 @@ module RailsLinks
 
     def allow_params
       params.require(:link).permit!
-    end
-
-    def set_item
-      @link = Option.find(params[:id]) rescue nil
     end
   end
 end

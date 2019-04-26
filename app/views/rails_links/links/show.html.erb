@@ -1,0 +1,9 @@
+<!-- app/views/links/show.html.erb -->
+<% if @link.logo.attached? %>
+<!-- @link.image.present? will always return true, use attached? to check presence -->
+  <p>
+    <strong>LOGO:</strong>
+    <br>
+    <%= image_tag @link.logo %>
+  </p>
+<% end %>
