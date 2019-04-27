@@ -13,6 +13,10 @@
 ```shell
 ./bin/rails g model Link title:string description:string
 ```
+## skip active-store
+```shell
+rails new AwesomeProject --skip-active-storage
+```
 
 ## resources
 - https://blog.eq8.eu/til/ruby-on-rails-active-storage-how-to-change-host-for-url_for.html
