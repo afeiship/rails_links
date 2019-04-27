@@ -18,4 +18,3 @@
 - https://blog.eq8.eu/til/ruby-on-rails-active-storage-how-to-change-host-for-url_for.html
 - https://evilmartians.com/chronicles/rails-5-2-active-storage-and-beyond
 - https://edgeguides.rubyonrails.org/active_storage_overview.html
-- https://blog.eq8.eu/til/ruby-on-rails-active-storage-how-to-change-host-for-url_for.html
