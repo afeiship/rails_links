@@ -10,7 +10,7 @@ class RailsLinks::InstallGenerator < Rails::Generators::Base
 
   def generate_model
     rake "rails_links:install:migrations"
-    # rake "active_storage:install"
+    rake "active_storage:install"
   end
 
   def add_gems
