@@ -11,12 +11,13 @@ module RailsLinks
     end
 
     def show
-      @link = Link.find(params[:id]) rescue nil
+      @link = Link.find(params[:id])
     end
 
     def create
-      @link = Link.new(allow_params)
+      @link = Link.create(allow_params)
       @link.save
+      redirect_to @link
     end
 
     private

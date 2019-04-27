@@ -11,5 +11,5 @@
 | logo        | string | -      | 网站的URL   |
 
 ```shell
-./bin/rails g model Link title:string description:string logo:string
+./bin/rails g model Link title:string description:string
 ```
