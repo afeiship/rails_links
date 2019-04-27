@@ -24,3 +24,5 @@ rails new AwesomeProject --skip-active-storage
 - https://edgeguides.rubyonrails.org/active_storage_overview.html
 - https://api.rubyonrails.org/v5.1.0/classes/ActionDispatch/Routing/UrlFor.html
 - https://edgeapi.rubyonrails.org/files/activestorage/README_md.html
+- http://blog.jasonkim.ca/blog/2017/11/13/Using-ActiveStorage-Today/
+- https://github.com/rails/rails/issues/31325
